@@ -10,6 +10,33 @@ permissions:
   contents: read
 
 jobs:
+  compatibility:
+    name: PHPCompatibility 8.3–8.5
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out theme
+        uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+          tools: composer:v2
+          coverage: none
+
+      - name: Install PHPCompatibility in runner environment
+        run: composer global require --no-interaction --no-progress phpcompatibility/php-compatibility
+
+      - name: Scan theme PHP files for compatibility issues
+        shell: bash
+        run: |
+          "$(composer global config bin-dir --absolute)/phpcs" \
+            --standard=PHPCompatibility \
+            --runtime-set testVersion 8.3-8.5 \
+            --extensions=php \
+            --ignore=*/vendor/*,*/node_modules/* \
+            .
+
   lint:
     name: PHP ${{ matrix.php-version }} syntax
     runs-on: ubuntu-latest
