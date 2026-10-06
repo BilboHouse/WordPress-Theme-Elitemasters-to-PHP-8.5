@@ -27,6 +27,11 @@ jobs:
       - name: Install PHPCompatibility in runner environment
         run: composer global require --no-interaction --no-progress phpcompatibility/php-compatibility
 
+      - name: Register PHPCompatibility with PHP_CodeSniffer
+        run: |
+          "$(composer global config bin-dir --absolute)/phpcs" \
+            --config-set installed_paths "$(composer global config home)/vendor/phpcompatibility/php-compatibility"
+
       - name: Scan theme PHP files for compatibility issues
         shell: bash
         run: |
