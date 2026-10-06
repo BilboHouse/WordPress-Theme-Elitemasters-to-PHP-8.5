@@ -1,39 +1,42 @@
-name: PHP Composer
+name: PHP compatibility
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main", "codex/php-8.3-8.5-compat"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
   contents: read
 
 jobs:
-  build:
-
+  lint:
+    name: PHP ${{ matrix.php-version }} syntax
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        php-version: ["8.3", "8.4", "8.5"]
 
     steps:
-    - uses: actions/checkout@v4
+      - name: Check out theme
+        uses: actions/checkout@v4
 
-    - name: Validate composer.json and composer.lock
-      run: composer validate --strict
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          coverage: none
 
-    - name: Cache Composer packages
-      id: composer-cache
-      uses: actions/cache@v3
-      with:
-        path: vendor
-        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-php-
-
-    - name: Install dependencies
-      run: composer install --prefer-dist --no-progress
-
-    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
-    # Docs: https://getcomposer.org/doc/articles/scripts.md
-
-    # - name: Run test suite
-    #   run: composer run-script test
+      - name: Lint all theme PHP files
+        shell: bash
+        run: |
+          mapfile -d '' php_files < <(find . -type f -name '*.php' -not -path './.git/*' -print0)
+          if (("${#php_files[@]}" == 0)); then
+            echo "No PHP files found."
+            exit 1
+          fi
+          printf 'Linting %s PHP files with PHP %s\n' "${#php_files[@]}" "${{ matrix.php-version }}"
+          for file in "${php_files[@]}"; do
+            php -l "$file"
+          done
