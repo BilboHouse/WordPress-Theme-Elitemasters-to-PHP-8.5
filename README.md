@@ -8,10 +8,10 @@ The theme's original metadata identifies GT3Themes as its author and declares GP
 
 1. Open the repository's [latest successful PHP compatibility workflow](https://github.com/BilboHouse/WordPress-Theme-Elitemasters-to-PHP-8.5/actions/workflows/php.yml).
 2. Select the latest successful run on `main`.
-3. Download the `elitemasters-php-8.3-8.5` artifact and extract it once.
-4. In WordPress, go to **Appearance → Themes → Add New → Upload Theme**, select the extracted ZIP, and activate it.
+3. Download the `elitemasters-php-8.3-8.5` artifact.
+4. In WordPress, go to **Appearance → Themes → Add New → Upload Theme**, select the downloaded ZIP directly, and activate it.
 
-The workflow artifact contains the theme files in a directly installable ZIP. No password is set. You can also clone or download this repository, but the GitHub source archive includes repository files such as this README and is not the installable package.
+The downloaded artifact is a ZIP containing the theme files at its root. It is not password protected and does not contain another ZIP inside it. Do not use GitHub's **Source code** archive; that archive includes repository files and is not the installable package.
 
 ## PHP compatibility checks
 
