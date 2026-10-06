@@ -35,12 +35,15 @@ jobs:
       - name: Scan theme PHP files for compatibility issues
         shell: bash
         run: |
+          mapfile -d '' php_files < <(find . -type f -name '*.php' -size +0c -not -path './.git/*' -print0)
+          if (("${#php_files[@]}" == 0)); then
+            echo "No non-empty PHP files found."
+            exit 1
+          fi
           "$(composer global config bin-dir --absolute)/phpcs" \
             --standard=PHPCompatibility \
             --runtime-set testVersion 8.3-8.5 \
-            --extensions=php \
-            --ignore=*/vendor/*,*/node_modules/* \
-            .
+            "${php_files[@]}"
 
   lint:
     name: PHP ${{ matrix.php-version }} syntax
