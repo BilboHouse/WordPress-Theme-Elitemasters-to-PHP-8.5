@@ -1,0 +1,977 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GT3Themes WP\n"
+"POT-Creation-Date: 2016-02-29 10:34+0200\n"
+"PO-Revision-Date: 2017-11-08 14:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: BilboHouse Designs\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core/tgm\n"
+
+#: 404.php:4
+msgid "404"
+msgstr "404"
+
+#: 404.php:5
+msgid "Oops, Sorry We Can’t Find That Page!"
+msgstr "¡Ups, no puedo encontrar la página!"
+
+#: 404.php:6
+msgid ""
+"Either Something Get Wrong or the Page Doesn’t Exist Anymore. Visit Our "
+"Homepage or Search the Best Match Below."
+msgstr ""
+"Creo que algo ha ido mal... no estas autorizado a acceder al contenido o la "
+"página no existe."
+
+#: 404.php:11
+msgid "Search the Site"
+msgstr "Buscar en el sitio"
+
+#: attachment.php:12 category.php:10
+msgid "Welcome to Blog"
+msgstr "Bienvenido al Blog"
+
+#: bloglisting.php:22 core/widgets/posts.php:56 single.php:46
+#: vc_templates/gt3_blog.php:62
+msgid "comment"
+msgstr "comentario"
+
+#: bloglisting.php:24 core/widgets/posts.php:58 single.php:48 single.php:157
+#: vc_templates/gt3_blog.php:64 vc_templates/gt3_featured_posts.php:52
+msgid "comments"
+msgstr "comentarios"
+
+#: bloglisting.php:63 functions.php:1709 vc_templates/gt3_blog.php:99
+#: vc_templates/gt3_portfolio.php:216
+msgid "Read More"
+msgstr "Leer más"
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Esta entrada está protegida por contraseña. Entra para ver los comentarios."
+
+#: comments.php:20
+msgid "Comments"
+msgstr "Comentarios"
+
+#: comments.php:40
+msgid "Name *"
+msgstr "Nombre *"
+
+#: comments.php:41
+msgid "Email *"
+msgstr "Email *"
+
+#: comments.php:42
+msgid "URL"
+msgstr "URL"
+
+#: comments.php:44
+msgid "Write Your Comment Here..."
+msgstr "Escribe tu comentario aquí..."
+
+#: comments.php:47
+msgid "You must be logged in to post a comment."
+msgstr "Debes acceder para escribir un comentario."
+
+#: comments.php:48
+msgid "Leave a Comment!"
+msgstr "¡Deja un comentario!"
+
+#: comments.php:49
+msgid "Add a Comment"
+msgstr "Añade un comentario"
+
+#: comments.php:50
+msgid "Logged in as"
+msgstr "Iniciada sesión como"
+
+#: comments.php:50
+msgid "Log out?"
+msgstr "¿Cerrar sesión?"
+
+#: comments.php:56
+msgid "Sorry, the comment form is closed at this time."
+msgstr "Disculpe, los comentarios están cerrados esta vez."
+
+#: core/page-settings.php:11 core/page-settings.php:19
+msgid "GT3 Page Settings"
+msgstr "Ajustes de Página GT3"
+
+#: core/page-settings.php:57 core/page-settings.php:194
+#: core/page-settings.php:293
+msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+#: core/page-settings.php:62
+msgid "Price:"
+msgstr "Precio:"
+
+#: core/page-settings.php:64
+msgid "Position:"
+msgstr "Posición:"
+
+#: core/page-settings.php:70
+msgid "Link to Offer:"
+msgstr "Enlace a Oferta:"
+
+#: core/page-settings.php:73
+msgid "Offer Button Text:"
+msgstr "Texto del botón Oferta:"
+
+#: core/page-settings.php:75
+msgid "Target Button Type:"
+msgstr ""
+
+#: core/page-settings.php:86
+msgid "Social icons"
+msgstr "Iconos sociales"
+
+#: core/page-settings.php:96
+msgid "Give some name"
+msgstr ""
+
+#: core/page-settings.php:97
+msgid "Give some link"
+msgstr ""
+
+#: core/page-settings.php:98
+msgid "Foreground color"
+msgstr ""
+
+#: core/page-settings.php:147
+msgid "Select media"
+msgstr "Seleccionar media"
+
+#: core/page-settings.php:171
+msgid "show thumbnails"
+msgstr ""
+
+#: core/page-settings.php:197
+msgid "External link:"
+msgstr "Enlace externo:"
+
+#: core/page-settings.php:214
+msgid "Author:"
+msgstr "Autor:"
+
+#: core/page-settings.php:215
+msgid "Company:"
+msgstr "Compañía:"
+
+#: core/page-settings.php:232
+msgid "Post format video URL:"
+msgstr "Post tipo Video URL:"
+
+#: core/page-settings.php:235 functions.php:1199 functions.php:1320
+msgid "Examples:"
+msgstr "Ejemplos:"
+
+#: core/page-settings.php:241
+msgid "Slider Images"
+msgstr "Imágenes Slider"
+
+#: core/page-settings.php:259
+msgid "Post Format Link:"
+msgstr "Post tipo Enlace:"
+
+#: core/page-settings.php:267
+msgid "Post Format Quote:"
+msgstr "Post tipo Cita:"
+
+#: core/page-settings.php:274
+msgid "Post Format Audio:"
+msgstr "Post tipo Audio:"
+
+#: core/page-settings.php:296
+msgid "Link to the work:"
+msgstr "Enlace al trabajo:"
+
+#: core/page-settings.php:317
+msgid "Add Custom Field"
+msgstr "Añade un campo personalizado"
+
+#: core/page-settings.php:339
+msgid "Page Subtitle"
+msgstr "Subtitulo de página"
+
+#: core/page-settings.php:358 core/page-settings.php:417
+msgid "Page Options"
+msgstr "Opciones de página"
+
+#: core/page-settings.php:360
+msgid "Background Options:"
+msgstr "Opciones de fondo:"
+
+#: core/page-settings.php:374 core/registrator/misc.php:161
+msgid "Add Image"
+msgstr "Añade Imagen"
+
+#: core/page-settings.php:378
+msgid "Counter Title:"
+msgstr ""
+
+#: core/page-settings.php:380
+msgid "Counter Subtitle:"
+msgstr ""
+
+#: core/page-settings.php:383
+msgid "Shortcode Title:"
+msgstr "Título Shortcode:"
+
+#: core/page-settings.php:385
+msgid "Copyright Text:"
+msgstr "Texto Copyright:"
+
+#: core/page-settings.php:390
+msgid "Enter Date:"
+msgstr "Introduce fecha:"
+
+#: core/page-settings.php:391
+msgid "Enter year. Ex.:2020"
+msgstr "Introduce año. Eje.:2020"
+
+#: core/page-settings.php:392
+msgid "Enter day. Ex.:27"
+msgstr "Introduce día. Eje.:27"
+
+#: core/page-settings.php:393
+msgid "Enter month. Ex.:11"
+msgstr "Introduce mes. Eje.:11"
+
+#: core/page-settings.php:396
+msgid "Form Shortcode:"
+msgstr ""
+
+#: core/page-settings.php:419
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: core/page-settings.php:425
+msgid "Extra class name:"
+msgstr "Nombre Clase Extra:"
+
+#: core/registrator/misc.php:72
+msgid "Custom Sidebars"
+msgstr "Barras laterales personalizadas"
+
+#: core/registrator/misc.php:86
+msgid "Sidebar layout:"
+msgstr ""
+
+#: core/registrator/misc.php:110
+msgid "Select sidebar:"
+msgstr "Seleccionar barra lateral:"
+
+#: core/registrator/misc.php:126
+msgid "Custom Layout"
+msgstr ""
+
+#: core/registrator/misc.php:142
+msgid "Page layout:"
+msgstr ""
+
+#: core/registrator/misc.php:179
+msgid "Title:"
+msgstr "Título:"
+
+#: core/registrator/misc.php:191
+msgid "Breadcrumb area:"
+msgstr "Área breadcrumb:"
+
+#: core/registrator/misc.php:203
+msgid "Header Type:"
+msgstr "Tipo de encabezado:"
+
+#: core/registrator/misc.php:215
+msgid "Transparent Header:"
+msgstr "Encabezado Transparente:"
+
+#: core/registrator/misc.php:226
+msgid "Footer Type:"
+msgstr "Tipo de Footer:"
+
+#: core/registrator/misc.php:238
+msgid "Pre Footer Bg Image Status:"
+msgstr ""
+
+#: core/registrator/misc.php:250
+msgid "Tagline area:"
+msgstr ""
+
+#: core/registrator/sidebars.php:9
+msgid ""
+"Add the widgets appearance for Custom Sidebar. Drag the widget from the "
+"available list on the left, configure widgets options and click Save button. "
+"Select the sidebar on the posts or pages in just few clicks."
+msgstr ""
+
+#: core/registrator/sidebars.php:17
+msgid ""
+"Display and style the footer area with multiple widgets. Simply drag the "
+"widgets from the left, make the adjustments to the widget according the "
+"needs. Preview the front end."
+msgstr ""
+
+#: core/vc/modules/gt3_blog/init.php:5
+msgid "Blog Posts"
+msgstr "Entradas del Blog"
+
+#: core/vc/modules/gt3_blog/init.php:6
+msgid "Display blog posts"
+msgstr "Mostrar post del blog"
+
+#: core/vc/modules/gt3_blog/init.php:7
+#: core/vc/modules/gt3_colored_info_sections/init.php:7
+#: core/vc/modules/gt3_colored_info_sections/init.php:57
+#: core/vc/modules/gt3_featured_portfolio/init.php:7
+#: core/vc/modules/gt3_featured_posts/init.php:7
+#: core/vc/modules/gt3_gallery/init.php:7
+#: core/vc/modules/gt3_heading/init.php:7 core/vc/modules/gt3_offers/init.php:7
+#: core/vc/modules/gt3_partners/init.php:7
+#: core/vc/modules/gt3_portfolio/init.php:7 core/vc/modules/gt3_team/init.php:7
+#: core/vc/modules/gt3_testimonials/init.php:7
+msgid "GT3 Modules"
+msgstr "Módulos GT3"
+
+#: core/vc/modules/gt3_blog/init.php:12
+#: core/vc/modules/gt3_featured_posts/init.php:12
+msgid "Blog Items"
+msgstr "Elementos Blog"
+
+#: core/vc/modules/gt3_blog/init.php:21
+#: core/vc/modules/gt3_featured_portfolio/init.php:21
+#: core/vc/modules/gt3_featured_posts/init.php:21
+#: core/vc/modules/gt3_offers/init.php:21
+#: core/vc/modules/gt3_partners/init.php:21
+#: core/vc/modules/gt3_portfolio/init.php:21
+#: core/vc/modules/gt3_team/init.php:21
+#: core/vc/modules/gt3_testimonials/init.php:21
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:4
+msgid "Colored Info Sections"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:6
+msgid "Display custom colored info sections"
+msgstr "Mostrar personalización de colores de las secciones de información"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:15
+msgid "Container Layout"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:18
+#: core/vc/modules/gt3_portfolio/init.php:31
+msgid "Wall"
+msgstr "Muro"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:19
+#: core/vc/modules/gt3_portfolio/init.php:29
+msgid "Grid"
+msgstr "Parrilla"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:24
+msgid "Alignment"
+msgstr "Alineación"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:27
+msgid "Center"
+msgstr "Centrado"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:28
+msgid "Left"
+msgstr "Izquierda"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:29
+msgid "Right"
+msgstr "Derecha"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:34
+#: core/vc/modules/gt3_offers/init.php:25
+#: core/vc/modules/gt3_partners/init.php:25
+#: core/vc/modules/gt3_portfolio/init.php:68
+#: core/vc/modules/gt3_team/init.php:25
+#: core/vc/modules/gt3_testimonials/init.php:25
+msgid "Items Per Line"
+msgstr "Elementos por línea"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:37
+#: core/vc/modules/gt3_featured_portfolio/init.php:29
+#: core/vc/modules/gt3_featured_posts/init.php:29
+#: core/vc/modules/gt3_gallery/init.php:29
+#: core/vc/modules/gt3_offers/init.php:29
+#: core/vc/modules/gt3_partners/init.php:29
+#: core/vc/modules/gt3_portfolio/init.php:72
+#: core/vc/modules/gt3_team/init.php:29
+#: core/vc/modules/gt3_testimonials/init.php:29
+msgid "1"
+msgstr "1"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:38
+#: core/vc/modules/gt3_featured_portfolio/init.php:30
+#: core/vc/modules/gt3_featured_posts/init.php:30
+#: core/vc/modules/gt3_gallery/init.php:30
+#: core/vc/modules/gt3_offers/init.php:30
+#: core/vc/modules/gt3_partners/init.php:30
+#: core/vc/modules/gt3_portfolio/init.php:73
+#: core/vc/modules/gt3_team/init.php:30
+#: core/vc/modules/gt3_testimonials/init.php:30
+msgid "2"
+msgstr "2"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:39
+#: core/vc/modules/gt3_featured_portfolio/init.php:31
+#: core/vc/modules/gt3_featured_posts/init.php:31
+#: core/vc/modules/gt3_gallery/init.php:31
+#: core/vc/modules/gt3_offers/init.php:31
+#: core/vc/modules/gt3_partners/init.php:31
+#: core/vc/modules/gt3_portfolio/init.php:74
+#: core/vc/modules/gt3_team/init.php:31
+#: core/vc/modules/gt3_testimonials/init.php:31
+msgid "3"
+msgstr "3"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:40
+#: core/vc/modules/gt3_featured_portfolio/init.php:32
+#: core/vc/modules/gt3_featured_posts/init.php:32
+#: core/vc/modules/gt3_gallery/init.php:32
+#: core/vc/modules/gt3_offers/init.php:32
+#: core/vc/modules/gt3_partners/init.php:32
+#: core/vc/modules/gt3_portfolio/init.php:75
+#: core/vc/modules/gt3_team/init.php:32
+#: core/vc/modules/gt3_testimonials/init.php:32
+msgid "4"
+msgstr "4"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:45
+#: core/vc/modules/gt3_colored_info_sections/init.php:140
+msgid "Extra Class"
+msgstr "Clase Extra"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:47
+#: core/vc/modules/gt3_colored_info_sections/init.php:142
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:54
+msgid "Colored Info Section Item"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:65 functions.php:1146
+#: functions.php:1267
+msgid "Title"
+msgstr "Título"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:68
+msgid "Provide a title for this list item."
+msgstr "Facilita un título para este elemento."
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:73
+msgid "Description"
+msgstr "Decripción"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:76
+msgid "Description about this list item"
+msgstr "Descripción de este elemento de lista"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:81
+msgid "Background Color"
+msgstr "Color de fondo"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:84
+msgid "Select background color for this item."
+msgstr "Seleccionar color de fondo para este elemento."
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:89
+msgid "Text Color"
+msgstr "Color del texto"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:92
+msgid "Select text color for this item."
+msgstr "Selecciona el color del texto para este elemento."
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:96
+msgid "Button"
+msgstr "Botón"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:99
+msgid "Hide"
+msgstr "Omitir"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:100
+msgid "Show"
+msgstr "Ver"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:106
+msgid "Button Title"
+msgstr "Título Botón"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:113
+msgid "Link"
+msgstr "Enlace"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:119
+msgid "Icon Position"
+msgstr "Posición de Icono"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:122
+msgid "Icon at Left"
+msgstr "Icono a la Izquierda"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:123
+msgid "Icon at Right"
+msgstr "Icono a la Derecha"
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:131
+msgid "Select Icon "
+msgstr "Seleccionar Icono "
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:134
+msgid ""
+"Click and select icon of your choice. If you can't find the one that suits "
+"for your purpose, you can"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:134
+msgid "add new here"
+msgstr "añadir nuevo aquí"
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:5
+msgid "Featured Portfolio Posts"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:6
+msgid "Display the featured portfolio posts"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:12
+#: core/vc/modules/gt3_portfolio/init.php:12
+msgid "Portfolio Items"
+msgstr "Artículos del Portafolio"
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:25
+#: core/vc/modules/gt3_featured_posts/init.php:25
+msgid "Posts Per Line"
+msgstr "Entradas por línea"
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:37
+#: core/vc/modules/gt3_gallery/init.php:37
+#: core/vc/modules/gt3_portfolio/init.php:81
+msgid "Featured Image Type"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:41
+#: core/vc/modules/gt3_gallery/init.php:41
+#: core/vc/modules/gt3_portfolio/init.php:85
+msgid "Rectangle"
+msgstr "Rectángulo"
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:42
+#: core/vc/modules/gt3_gallery/init.php:42
+#: core/vc/modules/gt3_portfolio/init.php:86
+msgid "Circle"
+msgstr "Circulo"
+
+#: core/vc/modules/gt3_featured_posts/init.php:5
+msgid "Featured Blog Posts"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_posts/init.php:6
+msgid "Display the featured blog posts"
+msgstr ""
+
+#: core/vc/modules/gt3_gallery/init.php:5
+#: core/vc/modules/gt3_gallery/init.php:12
+msgid "Gallery"
+msgstr "Galería"
+
+#: core/vc/modules/gt3_gallery/init.php:6
+msgid "Display custom gallery"
+msgstr "Mostrar Galería personalizada"
+
+#: core/vc/modules/gt3_gallery/init.php:21
+msgid ""
+"Create WordPress loop, to populate content from your site.<br>You can use "
+"only one gallery!!!"
+msgstr ""
+
+#: core/vc/modules/gt3_gallery/init.php:25
+msgid "Images in row"
+msgstr ""
+
+#: core/vc/modules/gt3_gallery/init.php:43
+#: core/vc/modules/gt3_portfolio/init.php:30
+msgid "Masonry"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:5
+msgid "Heading"
+msgstr "Encabezado"
+
+#: core/vc/modules/gt3_heading/init.php:6
+msgid "Add custom headings"
+msgstr "Añade encabezado personalizado"
+
+#: core/vc/modules/gt3_heading/init.php:12
+msgid "Heading Text"
+msgstr "Texto de encabezado"
+
+#: core/vc/modules/gt3_heading/init.php:19
+msgid "Heading Tag"
+msgstr "Etiqueta de encabezado"
+
+#: core/vc/modules/gt3_heading/init.php:23
+msgid "H1"
+msgstr "H1"
+
+#: core/vc/modules/gt3_heading/init.php:24
+msgid "H2"
+msgstr "H2"
+
+#: core/vc/modules/gt3_heading/init.php:25
+msgid "H3"
+msgstr "H3"
+
+#: core/vc/modules/gt3_heading/init.php:26
+msgid "H4"
+msgstr "H4"
+
+#: core/vc/modules/gt3_heading/init.php:27
+msgid "H5"
+msgstr "H5"
+
+#: core/vc/modules/gt3_heading/init.php:28
+msgid "H6"
+msgstr "H6"
+
+#: core/vc/modules/gt3_offers/init.php:5
+msgid "Offers"
+msgstr "Ofertas"
+
+#: core/vc/modules/gt3_offers/init.php:6
+msgid "Display offers"
+msgstr "Mostrar ofertas"
+
+#: core/vc/modules/gt3_offers/init.php:12
+msgid "Offer Items"
+msgstr "Artículos Oferta"
+
+#: core/vc/modules/gt3_partners/init.php:5
+msgid "Partners"
+msgstr "Patrocinadores"
+
+#: core/vc/modules/gt3_partners/init.php:6
+msgid "Display partners"
+msgstr "Mostrar Partner"
+
+#: core/vc/modules/gt3_partners/init.php:12
+msgid "Partners Items"
+msgstr "Artículos Partners"
+
+#: core/vc/modules/gt3_partners/init.php:33
+#: core/vc/modules/gt3_portfolio/init.php:76
+msgid "5"
+msgstr "5"
+
+#: core/vc/modules/gt3_partners/init.php:34
+msgid "6"
+msgstr "6"
+
+#: core/vc/modules/gt3_partners/init.php:39
+#: core/vc/modules/gt3_portfolio/init.php:25
+msgid "View Type"
+msgstr "Tipo Vistas"
+
+#: core/vc/modules/gt3_partners/init.php:43
+msgid "Type 1"
+msgstr "Tipo 1"
+
+#: core/vc/modules/gt3_partners/init.php:44
+msgid "Type 2"
+msgstr "Tipo 2"
+
+#: core/vc/modules/gt3_portfolio/init.php:5
+msgid "Portfolio Posts"
+msgstr "Artículos Portafolio"
+
+#: core/vc/modules/gt3_portfolio/init.php:6
+msgid "Display portfolio posts"
+msgstr "Mostrar artículos portafolio"
+
+#: core/vc/modules/gt3_portfolio/init.php:36
+msgid "Ajax"
+msgstr "Ajax"
+
+#: core/vc/modules/gt3_portfolio/init.php:40
+#: core/vc/modules/gt3_portfolio/init.php:62
+msgid "On"
+msgstr "On"
+
+#: core/vc/modules/gt3_portfolio/init.php:41
+#: core/vc/modules/gt3_portfolio/init.php:63
+msgid "Off"
+msgstr "Off"
+
+#: core/vc/modules/gt3_portfolio/init.php:46
+msgid "Items on load"
+msgstr "Artículos en la carga"
+
+#: core/vc/modules/gt3_portfolio/init.php:48
+#: core/vc/modules/gt3_portfolio/init.php:54
+msgid ""
+"Note, indicate the items quantity if you selected Ajax=\"On\" in the field "
+"above."
+msgstr ""
+"Nota, si ha seleccionado Ajax=\"On\" indica la cantidad de artículos en el "
+"campo."
+
+#: core/vc/modules/gt3_portfolio/init.php:52
+msgid "Items per click"
+msgstr "Artículos por clic"
+
+#: core/vc/modules/gt3_portfolio/init.php:58
+msgid "Filter"
+msgstr "Filtro"
+
+#: core/vc/modules/gt3_team/init.php:5
+msgid "Team"
+msgstr "Equipo"
+
+#: core/vc/modules/gt3_team/init.php:6
+msgid "Display team members"
+msgstr "Mostrar miembros del equipo"
+
+#: core/vc/modules/gt3_team/init.php:12
+msgid "Team Items"
+msgstr "Artículos de equipo"
+
+#: core/vc/modules/gt3_testimonials/init.php:5
+msgid "Testimonials"
+msgstr "Testimonios"
+
+#: core/vc/modules/gt3_testimonials/init.php:6
+msgid "Display testimonials"
+msgstr "Mostrar testimonios"
+
+#: core/vc/modules/gt3_testimonials/init.php:12
+msgid "Testimonials Items"
+msgstr "Artículos de testimonio"
+
+#: core/widgets/posts.php:30 page-with-slider-above-content.php:28 page.php:25
+#: single-offers.php:42 single-portfolio.php:75 single-team.php:28
+#: single.php:84
+msgid "Read more!"
+msgstr "Leer más"
+
+#: footer.php:52
+msgid "Follow:"
+msgstr "Sígueme:"
+
+#: functions.php:113
+msgid "Your comment is awaiting moderation."
+msgstr "Su comentario está esperando a moderación."
+
+#: functions.php:116
+msgid "Reply"
+msgstr "Respuesta"
+
+#: functions.php:146
+msgid "Prev"
+msgstr "Ant."
+
+#: functions.php:179
+msgid "Next"
+msgstr "Siguiente"
+
+#: functions.php:577
+msgid "Home"
+msgstr "Inicio"
+
+#: functions.php:1049
+msgid "All Works"
+msgstr "Todos los trabajos"
+
+#: functions.php:1150 functions.php:1162 functions.php:1210 functions.php:1226
+#: functions.php:1271 functions.php:1283 functions.php:1331 functions.php:1350
+msgid "color"
+msgstr "color"
+
+#: functions.php:1158 functions.php:1222 functions.php:1279 functions.php:1346
+msgid "Caption"
+msgstr "Captura"
+
+#: functions.php:1192 functions.php:1313
+msgid "Video settings"
+msgstr "Ajustes de video"
+
+#: functions.php:1196 functions.php:1317
+msgid "Video URL (YouTube or Vimeo)"
+msgstr "URL video (YouTube o Vimeo)"
+
+#: functions.php:1206 functions.php:1327
+msgid "Title and thumbnail"
+msgstr "Título y miniatura"
+
+#: functions.php:1262
+msgid "Image Settings"
+msgstr "Ajustes de imagen"
+
+#: functions.php:1337
+msgid "Upload Image"
+msgstr "Cargar imagen"
+
+#: functions.php:1862 header.php:85
+msgid "View your shopping cart"
+msgstr "Ver lista de la compra"
+
+#: functions.php:1919
+msgid "N/A"
+msgstr "N/D"
+
+#: header.php:76
+msgid "Login"
+msgstr "Login"
+
+#: header.php:125
+msgid "Remove this item"
+msgstr "Eliminar este artículo"
+
+#: header.php:133
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: header.php:137
+msgid "View cart"
+msgstr "Ver carro"
+
+#: header.php:139
+msgid "Checkout"
+msgstr "Pagar"
+
+#: header.php:142
+msgid "No products in the cart."
+msgstr "No hay productos en el carro."
+
+#: header.php:149
+msgid "Follow"
+msgstr "Sígueme"
+
+#: header.php:304 searchform.php:2 searchform.php:3
+msgid "Search"
+msgstr "Buscar"
+
+#: header.php:305
+msgid "Go"
+msgstr "Ir"
+
+#: image.php:54
+msgid "Published on"
+msgstr "Publicado en"
+
+#: image.php:54
+msgid "in"
+msgstr "dentro"
+
+#: image.php:71
+msgid "Link to full-size image"
+msgstr "Enlace a imagen de tamaño completo"
+
+#: image.php:72
+msgid "Full resolution"
+msgstr "Resolución completa"
+
+#: image.php:77
+msgid "Edit"
+msgstr "Editar"
+
+#: image.php:92
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: image.php:98
+msgid "Back"
+msgstr "Atrás"
+
+#: page-coming-soon.php:55
+msgid "Date has not been entered"
+msgstr "No se ha introducido fecha"
+
+#: page-coming-soon.php:182 page-onepage-scroll.php:40
+msgid "This Content is Password Protected"
+msgstr "Este contenido está protegido por contraseña"
+
+#: page-coming-soon.php:200 page-onepage-scroll.php:58
+msgid "Enter The Password..."
+msgstr "Introduce la contraseña..."
+
+#: page-with-slider-above-content.php:29 page.php:26 single-offers.php:43
+#: single-portfolio.php:76 single-team.php:29 single.php:85 woocommerce.php:26
+msgid "Pages"
+msgstr "Páginas"
+
+#: search.php:46 search.php:69
+msgid "by"
+msgstr "por"
+
+#: search.php:83
+msgid "Oops!"
+msgstr "¡Ups!"
+
+#: search.php:83
+msgid "Not Found!"
+msgstr "¡No encontrado!"
+
+#: search.php:84
+msgid "Apologies, but we were unable to find what you were looking for."
+msgstr "Lo siento, pero es imposible encontrar lo que está buscando."
+
+#: search.php:95
+msgid "Search Results"
+msgstr "Resultados de búsqueda"
+
+#: search.php:96
+msgid "Sorry, but you've entered invalid search term. Please try a new search."
+msgstr "Perdón, ha introducido un término inválido. Pruebe otra vez."
+
+#: single-offers.php:55
+msgid "Related Offers"
+msgstr "Ofertas relacionadas"
+
+#: single-portfolio.php:90 single.php:99
+msgid "Previous Post"
+msgstr "Anterior"
+
+#: single-portfolio.php:95 single.php:104
+msgid "Next Post"
+msgstr "Siguiente"
+
+#: single-portfolio.php:103
+msgid "Related Projects"
+msgstr "Proyectos relacionados"
+
+#: single.php:112
+msgid "Related Posts"
+msgstr "Post relacionados"
+
+#: vc_templates/gt3_portfolio.php:66
+msgid "Load More"
+msgstr "Cargar más"
+
+#: woocommerce.php:16
+msgid "Shop"
+msgstr "Tienda"
